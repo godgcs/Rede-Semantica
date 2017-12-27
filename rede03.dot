@@ -1,0 +1,33 @@
+digraph Rede {
+1 [label="Bebida"];
+2 [label="Refrigerante"];
+3 [label="Suco"];
+4 [label="Alcool"];
+5 [label="Pessoas"];
+6 [label="Marca"];
+7 [label="Empresas"];
+8 [label="Coca-Cola"];
+9 [label="Pepsi"];
+10 [label="Del Valle"];
+11 [label="Fanta"];
+12 [label="Plantacao"];
+13 [label="Materia-Prima"];
+14 [label="Gatorade"];
+15 [label="H2OH!"];
+1 -> 6 [label="Possui"];
+2 -> 1 [label="Eh_Um"];
+3 -> 1 [label="Eh_Um"];
+4 -> 1 [label="Eh_Um"];
+5 -> 1 [label="Bebem"];
+5 -> 7 [label="Trabalha_Em"];
+5 -> 12 [label="Trabalha_Em"];
+7 -> 6 [label="Possui"];
+8 -> 7 [label="Eh_Um"];
+9 -> 7 [label="Eh_Um"];
+10 -> 8 [label="Pertence_A"];
+11 -> 8 [label="Pertence_A"];
+12 -> 13 [label="Gera"];
+13 -> 1 [label="Gera"];
+14 -> 9 [label="Pertence_A"];
+15 -> 9 [label="Pertence_A"];
+}

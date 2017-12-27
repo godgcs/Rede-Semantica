@@ -1,0 +1,121 @@
+#########################################################################
+#									#
+# 				Dataset Rede01				#
+#									#
+#		Trabalho Prático 02 - Matemática Discreta		#
+#			Alunos: Flávia Ribeiro 		0022651		#
+#				Guilherme Cardoso 	0022645		#
+#				Luiz Eduardo		0021619		#
+#									#
+#########################################################################
+
+# Numero de nos da rede semantica
+
+N 15
+
+# Descricao dos nos da rede semantica
+
+n 1 Faculdade
+
+n 2 IFMG
+
+n 3 UNIFOR
+
+n 4 Particular
+
+n 5 Federal
+
+n 6 Biblioteca
+
+n 7 Lanchonete
+
+n 8 Aluno
+
+n 9 Formiga
+
+n 10 Escola
+
+n 11 Cidade
+
+n 12 Roney
+
+n 13 Estudos
+
+n 14 Comida
+
+n 15 Ser_Humano
+
+# Total de tipos de relacionamento da rede semantica
+
+K 10
+
+# Descricao dos tipos de relacionamento
+
+k 1 Tem_Nome
+
+k 2 Tipo
+
+k 3 Possui
+
+k 4 Localizado
+
+k 5 Quem_Usa
+
+k 6 Local_De
+
+k 7 Tem_Dono
+
+k 8 Vende
+
+k 9 Eh_Um(a)
+
+k 10 Comem
+
+
+# Relacionandos nós por meio de tipos de relacionamento
+
+r 1 3 1
+
+r 1 2 1
+
+r 2 5 2
+
+r 3 4 2
+
+r 2 6 3
+
+r 3 6 3
+
+r 2 7 3
+
+r 2 8 3
+
+r 6 13 6
+
+r 7 14 8
+
+r 7 12 7
+
+r 12 15 9
+
+r 15 14 10
+
+r 8 15 9
+
+r 2 9 4
+
+r 3 9 4
+
+r 9 10 3
+
+r 10 8 3
+
+r 9 11 9
+
+r 11 15 3
+
+r 6 8 5
+
+# Fim de arquivo
+
+f

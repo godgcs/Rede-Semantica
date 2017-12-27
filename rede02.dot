@@ -1,0 +1,33 @@
+digraph Rede {
+1 [label="Equipamento"];
+2 [label="Equalizador"];
+3 [label="Memoria"];
+4 [label="Musica"];
+5 [label="CD"];
+6 [label="Cassete"];
+7 [label="Estacao_de_Radio"];
+8 [label="Faixa"];
+9 [label="Bandas"];
+10 [label="MP3"];
+11 [label="Arquivo_de_Computador"];
+12 [label="Diretorio"];
+13 [label="Externo"];
+14 [label="Pessoas"];
+15 [label="Energia"];
+1 -> 2 [label="Tem"];
+1 -> 3 [label="Tem"];
+1 -> 4 [label="Toca"];
+1 -> 15 [label="Usa"];
+3 -> 7 [label="Guarda"];
+4 -> 5 [label="Vem_De"];
+4 -> 6 [label="Vem_De"];
+4 -> 7 [label="Vem_De"];
+4 -> 13 [label="Vem_De"];
+5 -> 8 [label="Tem"];
+5 -> 10 [label="Pode_Conter"];
+6 -> 8 [label="Tem"];
+7 -> 9 [label="Tem"];
+10 -> 11 [label="Eh_Um_tipo_De"];
+11 -> 12 [label="Guarda_Em"];
+14 -> 1 [label="Usa"];
+}

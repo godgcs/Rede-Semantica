@@ -1,0 +1,108 @@
+#########################################################################
+#									#
+# 				Dataset Rede02				#
+#									#
+#		Trabalho Prático 02 - Matemática Discreta		#
+#			Alunos: Flávia Ribeiro 		0022651		#
+#				Guilherme Cardoso 	0022645		#
+#				Luiz Eduardo		0021619		#
+#	   URL Rede: http://www.pcs.usp.br/~pcs5756/mix/modeconc.html	#
+#			acrescentado de novos nos e relações		#
+#									#
+#########################################################################
+
+# Numero de nos da rede semantica
+
+N 15
+
+# Descricao dos nos da rede semantica
+
+n 1 Equipamento
+
+n 2 Equalizador
+
+n 3 Memoria
+
+n 4 Musica
+
+n 5 CD
+
+n 6 Cassete
+
+n 7 Estacao_de_Radio
+
+n 8 Faixa
+
+n 9 Bandas
+
+n 10 MP3
+
+n 11 Arquivo_de_Computador
+
+n 12 Diretorio
+
+n 13 Externo
+
+n 14 Pessoas
+
+n 15 Energia
+
+# Total de tipos de relacionamento da rede semantica
+
+K 8
+
+# Descricao dos tipos de relacionamento
+
+k 1 Tem
+
+k 2 Toca
+
+k 3 Vem_De
+
+k 4 Pode_Conter
+
+k 5 Eh_Um_tipo_De
+
+k 6 Guarda_Em
+
+k 7 Guarda
+
+k 8 Usa
+
+# Relacionandos nós por meio de tipos de relacionamento
+
+r 1 2 1
+
+r 1 3 1
+
+r 1 4 2
+
+r 3 7 7
+
+r 4 5 3
+
+r 4 6 3
+
+r 4 7 3
+
+r 7 9 1
+
+r 5 8 1
+
+r 6 8 1
+
+r 5 10 4
+
+r 10 11 5
+
+r 11 12 6
+
+r 4 13 3
+
+r 14 1 8
+
+r 1 15 8
+
+# Fim de arquivo
+
+f
