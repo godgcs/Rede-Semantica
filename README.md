@@ -6,8 +6,5 @@ Representação de redes semânticas - Trabalho realizado no 2° período do cur
 - Flávia Ribeiro
 - Luiz Eduardo
 
-### Linguagem
-Pascal
-
 ### Instruções Para Compilar
 Gere o executavel do aplicativo no FPC e então vá no terminal e o execute	passando como parametro o arquivo de entrada e de Saida	    $ ./semantic-net "arquivo-entrada" "arquivo-saida"
